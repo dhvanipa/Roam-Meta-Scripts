@@ -1,5 +1,7 @@
 import json
 import re
+from datetime import datetime
+from datetime import timedelta
 
 with open('data/database.json') as f:
   allPages = json.load(f)
@@ -32,7 +34,7 @@ for page in allPages:
                     # If end time exists                    
                     endTimeStartIndex = re.search(r"\d", parentTitle[5:])
                     if endTimeStartIndex is not None:                        
-                        print(parentTitle)
+                        # print(parentTitle)
                         
                         startTime = parentTitle[0:5]
                         assert(hhmmStrictCheck.match(startTime))
@@ -44,8 +46,16 @@ for page in allPages:
                         assert(hhmmStrictCheck.match(endTime))
 
                         # print(endTime)           
-                        
-                        
+
+                        FMT = '%H:%M'
+                        tdelta = datetime.strptime(endTime, FMT) - datetime.strptime(startTime, FMT)       
+                        if tdelta.days < 0:
+                            tdelta = timedelta(days=0, seconds=tdelta.seconds, microseconds=tdelta.microseconds)
+
+                        # print(tdelta)
+                        # hours = tdelta.seconds//3600 
+                        # minutes = (td.seconds//60)%60                       
+                      
                         # break            
     
             page_count += 1
