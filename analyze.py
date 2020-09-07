@@ -3,6 +3,13 @@ import re
 from datetime import datetime
 from datetime import timedelta
 import matplotlib.pyplot as plt
+from matplotlib.pyplot import figure
+import matplotlib.ticker as ticker
+
+monthDays = {"January": 31, "February": 29, "March": 31,
+             "April": 30, "May": 31, "June": 30, "July": 31,
+             "August": 31, "September": 30, "October": 31,
+             "November": 30, "December": 31}
 
 with open('data/database.json') as f:
     allPages = json.load(f)
@@ -15,8 +22,16 @@ year = "2020"
 hhmmStartsWithCheck = re.compile("^([0-1]?[0-9]|2[0-3]):[0-5][0-9]")
 hhmmStrictCheck = re.compile("^([0-1]?[0-9]|2[0-3]):[0-5][0-9]$")
 
-dates = ["Jan 1", "Jan 2"]
-timeSpent = [3, 4]
+dates = []
+
+# In minutes
+timeSpent = []
+
+for month in timeRange:
+    numDays = monthDays.get(month)
+    for day in range(1, numDays+1):
+        dates.append(month + str(day))
+        timeSpent.append(0)
 
 categories = [
     "thinking",
@@ -163,6 +178,13 @@ for page in allPages:
 print("-----------")
 print("Analyzed: " + str(pageCount) + " pages")
 
+figure(figsize=(17, 7))
+
+ax = plt.axes()
+ax.xaxis.set_major_locator(ticker.MultipleLocator(5))
+ax.xaxis.set_minor_locator(ticker.MultipleLocator(1))
+
+plt.xticks(rotation=45, fontsize=10)
 plt.plot(dates, timeSpent)
 plt.title('Minutes spent per day')
 plt.xlabel('Day')
