@@ -2,19 +2,22 @@ import json
 import re
 from datetime import datetime
 from datetime import timedelta
+import matplotlib.pyplot as plt
+
 
 with open('data/database.json') as f:
   allPages = json.load(f)
 
-summer_term = ("May", "June", "July", "August")
+summerTerm = ("May", "June", "July", "August")
 
-time_range = summer_term
+timeRange = summerTerm
 year = "2020"
     
 hhmmStartsWithCheck = re.compile("^([0-1]?[0-9]|2[0-3]):[0-5][0-9]")
 hhmmStrictCheck = re.compile("^([0-1]?[0-9]|2[0-3]):[0-5][0-9]$")
 
-timeSpent = {}
+dates = ["Jan 1", "Jan 2"]
+timeSpent = [3, 4]
 
 categories = [
     "thinking",    
@@ -44,7 +47,7 @@ categories = [
     "reflection",
 ]
 
-categories_raw = [
+categoriesRaw = [
     "thinking",
     "think",
     "transition",    
@@ -95,12 +98,13 @@ categories_raw = [
     "reflection",
 ]
 
-page_count = 0
+pageCount = 0
+
 for page in allPages:    
     pageTitle = page.get("title")
 
     # Filter out daily pages
-    if pageTitle.startswith(time_range) and pageTitle.endswith(year):
+    if pageTitle.startswith(timeRange) and pageTitle.endswith(year):
         # print(page.get("title"))   
         notes = page.get("children")
 
@@ -134,22 +138,32 @@ for page in allPages:
                             tdelta = timedelta(days=0, seconds=tdelta.seconds, microseconds=tdelta.microseconds)
 
                         task = parentTitle[endTimeStartIndex+5:]                        
-                        task = task.lower()
+                        task = task.lower()                        
 
-                        if not any(map(task.__contains__, categories_raw)):
+                        if not any(map(task.__contains__, categoriesRaw)):
                             print("FIX TAG: ")
                             print(page.get("title"))   
                             print(task)
+                        else:
+                            for rawCat in categoriesRaw:
+                                if rawCat.find(task):
+                                    print(rawCat)                        
 
-                        # print(tdelta)
-                        # hours = tdelta.seconds//3600 
-                        # minutes = (td.seconds//60)%60                       
+                            # print(tdelta)
+                            # hours = tdelta.seconds//3600 
+                            # minutes = (td.seconds//60)%60                       
                       
                         # break            
     
-            page_count += 1
+            pageCount += 1
         
         # break
 
 print("-----------")
-print("Analyzed: " + str(page_count) + " pages")
+print("Analyzed: " + str(pageCount) + " pages")
+
+plt.plot(dates, timeSpent)
+plt.title('Minutes spent per day')
+plt.xlabel('Day')
+plt.ylabel('Time (minutes)')
+plt.show()
