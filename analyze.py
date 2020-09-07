@@ -18,16 +18,29 @@ timeSpent = {}
 
 categories = [
     "thinking",
+    "think",
     "transition",
+    "body",
+    "robotics",
     "wandering",
     "procrastination",
     "work out",
+    "workout",
     "family",
     "friends",
     "lunch",
     "dinner",
-    "morning exercise. shower. get ready.",
+    "morning exercise.",
+    "morning exercise. shower. get ready",
+    "shower. get ready",
+    "shower. morning exercise.",
+    "shower and get ready.",    
+    "get ready",
+    "morning exercise. shower.",
+    "interview",      
+    "setup",
     "info consumption",
+    "research",
     "errands",
     "planning",
     "reflecting",
@@ -44,7 +57,9 @@ categories = [
     "ece192",
     "ece 192",
     "break",
+    "school",
     "youtube",
+    "coding",
     "walk",
     "reading",
     "yc",
@@ -52,7 +67,8 @@ categories = [
     "coop",
     "bookmark",
     "wandcrafting",
-    "what am i doing - big picture",
+    "wandservers",    
+    "reflection",
 ]
 
 page_count = 0
@@ -96,6 +112,7 @@ for page in allPages:
                         task = parentTitle[endTimeStartIndex+5:]                        
                         task = task.lower()
                         if not any(map(task.__contains__, categories)):
+                            print(page.get("title"))   
                             print(task)
 
                         # print(tdelta)
