@@ -75,6 +75,7 @@ Thumbs.db
 
 # dotenv environment variables file
 .env
+.vscode
 venv/
 
 # next.js build output
