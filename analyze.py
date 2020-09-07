@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 from matplotlib.pyplot import figure
 import matplotlib.ticker as ticker
 
+# Map month to number of days
 monthDays = {"January": 31, "February": 29, "March": 31,
              "April": 30, "May": 31, "June": 30, "July": 31,
              "August": 31, "September": 30, "October": 31,
@@ -15,8 +16,11 @@ with open('data/database.json') as f:
     allPages = json.load(f)
 
 summerTerm = ("May", "June", "July", "August")
+summerTermIndexes = [0, 31, 61, 92]
 
 timeRange = summerTerm
+timeRangeIndexes = summerTermIndexes
+
 year = "2020"
 
 hhmmStartsWithCheck = re.compile("^([0-1]?[0-9]|2[0-3]):[0-5][0-9]")
@@ -26,12 +30,14 @@ dates = []
 
 # In minutes
 timeSpent = []
+totalMinutes = 0
 
 for month in timeRange:
     numDays = monthDays.get(month)
     for day in range(1, numDays+1):
         dates.append(month + str(day))
         timeSpent.append(0)
+        totalMinutes += (24*60)
 
 categories = [
     "thinking",
@@ -114,6 +120,8 @@ categoriesRaw = [
 
 pageCount = 0
 
+activityMinutes = 0
+
 for page in allPages:
     pageTitle = page.get("title")
 
@@ -121,6 +129,9 @@ for page in allPages:
     if pageTitle.startswith(timeRange) and pageTitle.endswith(year):
         # print(page.get("title"))
         notes = page.get("children")
+        pageMonth = pageTitle[:pageTitle.find(" ")]
+        pageDay = int(pageTitle[pageTitle.find(" ")+1:pageTitle.find(",")-2])
+        termIndex = timeRangeIndexes[summerTerm.index(pageMonth)] + pageDay - 1
 
         # If page isn't empty
         if notes is not None:
@@ -161,13 +172,25 @@ for page in allPages:
                             print(page.get("title"))
                             print(task)
                         else:
+                            category = ""
                             for rawCat in categoriesRaw:
-                                if rawCat.find(task):
-                                    print(rawCat)
+                                if task.find(rawCat) > 0:
+                                    category = rawCat
+                                    break
 
-                            # print(tdelta)
-                            # hours = tdelta.seconds//3600
-                            # minutes = (td.seconds//60)%60
+                            # Calculate reading
+                            # print(category)
+                            if category == "reading":
+                                # print(pageTitle)
+
+                                # print(tdelta)
+                                hours = tdelta.seconds//3600
+                                minutes = (tdelta.seconds//60) % 60
+                                taskMinutes = (hours*60) + minutes
+
+                                timeSpent[termIndex] += taskMinutes
+                                # print(timeSpent[termIndex])
+                                activityMinutes += taskMinutes
 
                         # break
 
@@ -177,6 +200,9 @@ for page in allPages:
 
 print("-----------")
 print("Analyzed: " + str(pageCount) + " pages")
+print("Activity: reading")
+print("Average time (minutes): " + str(activityMinutes) + "/" +
+      str(totalMinutes) + " (" + str(round((activityMinutes/totalMinutes)*100, 2)) + "%)")
 
 figure(figsize=(17, 7))
 
