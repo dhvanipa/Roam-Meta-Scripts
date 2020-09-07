@@ -17,11 +17,37 @@ hhmmStrictCheck = re.compile("^([0-1]?[0-9]|2[0-3]):[0-5][0-9]$")
 timeSpent = {}
 
 categories = [
+    "thinking",    
+    "transition",    
+    "wandering",
+    "procrastination",    
+    "workout",
+    "family",
+    "friends",
+    "lunch",
+    "dinner",
+    "morning routine",                               
+    "info consumption",
+    "research",
+    "errands",
+    "planning",
+    "reflecting",   
+    "break",
+    "school",    
+    "coding",
+    "walk",
+    "reading",
+    "yc",
+    "co-op",    
+    "bookmark",
+    "wandcrafting", 
+    "reflection",
+]
+
+categories_raw = [
     "thinking",
     "think",
-    "transition",
-    "body",
-    "robotics",
+    "transition",    
     "wandering",
     "procrastination",
     "work out",
@@ -36,8 +62,7 @@ categories = [
     "shower. morning exercise.",
     "shower and get ready.",    
     "get ready",
-    "morning exercise. shower.",
-    "interview",      
+    "morning exercise. shower.",    
     "setup",
     "info consumption",
     "research",
@@ -57,8 +82,7 @@ categories = [
     "ece192",
     "ece 192",
     "break",
-    "school",
-    "youtube",
+    "school",    
     "coding",
     "walk",
     "reading",
@@ -111,7 +135,9 @@ for page in allPages:
 
                         task = parentTitle[endTimeStartIndex+5:]                        
                         task = task.lower()
-                        if not any(map(task.__contains__, categories)):
+
+                        if not any(map(task.__contains__, categories_raw)):
+                            print("FIX TAG: ")
                             print(page.get("title"))   
                             print(task)
 
