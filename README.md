@@ -10,14 +10,15 @@ This script will then generate a line graph where the x-axis is time, and the y-
 ### Word Clouds
 
 Make sure each day has the following section:
-```- [[Daily Review]]
+```
+- [[Daily Review]]
     - [[Shower thoughts]]
     - Heart:
     - Mind:        
     - Soul:
-    - Body:```
+    - Body:
+```
 
 This script will then generate a word cloud from each of these sections across a chosen time frame.
-
 
 > Dhvani
