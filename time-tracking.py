@@ -2,6 +2,7 @@ import json
 import re
 from datetime import datetime
 from datetime import timedelta
+
 import matplotlib.pyplot as plt
 from matplotlib.pyplot import figure
 import matplotlib.ticker as ticker
@@ -180,7 +181,7 @@ for page in allPages:
 
                             # Calculate reading
                             # print(category)
-                            if category == "reading":
+                            if category == "friends":
                                 # print(pageTitle)
 
                                 # print(tdelta)
