@@ -16,11 +16,13 @@ monthDays = {"January": 31, "February": 29, "March": 31,
 with open('data/database.json') as f:
     allPages = json.load(f)
 
+winterTerm = ("January", "February", "March", "April")
 summerTerm = ("May", "June", "July", "August")
-summerTermIndexes = [0, 31, 61, 92]
+fallTerm = ("September", "October", "November", "December")
 
-timeRange = summerTerm
-timeRangeIndexes = summerTermIndexes
+allYear = summerTerm + fallTerm
+
+timeRange = allYear
 
 year = "2020"
 
@@ -33,12 +35,16 @@ dates = []
 timeSpent = []
 totalMinutes = 0
 
+timeRangeIndexes = [0]
 for month in timeRange:
-    numDays = monthDays.get(month)
+    numDays = monthDays.get(month) 
+    if len(timeRangeIndexes) < len(timeRange):
+        timeRangeIndexes.append(timeRangeIndexes[-1]+numDays)
+    
     for day in range(1, numDays+1):
         dates.append(month + str(day))
         timeSpent.append(0)
-        totalMinutes += (24*60)
+        totalMinutes += (24*60)    
 
 categories = [
     "thinking",
@@ -66,6 +72,18 @@ categories = [
     "bookmark",
     "wandcrafting",
     "reflection",
+    "work",
+    "healthcare",
+    "interests",
+    "intrinsic building",
+    "writing",
+    "mapping",
+    "learning",
+    "youtube",
+    "whiteboarding",
+    "leadership",
+    "notebook",
+    "podcast",
 ]
 
 categoriesRaw = [
@@ -94,6 +112,7 @@ categoriesRaw = [
     "planning",
     "reflecting",
     "cs348",
+    "pd 10"
     "cs 348",
     "cs240",
     "cs 240",
@@ -117,6 +136,14 @@ categoriesRaw = [
     "wandcrafting",
     "wandservers",
     "reflection",
+     "work",
+    "healthcare",
+    "interests",
+    "intrinsic building",
+    "writing",
+    "mapping",
+    "learning",
+    "youtube",
 ]
 
 pageCount = 0
@@ -132,7 +159,7 @@ for page in allPages:
         notes = page.get("children")
         pageMonth = pageTitle[:pageTitle.find(" ")]
         pageDay = int(pageTitle[pageTitle.find(" ")+1:pageTitle.find(",")-2])
-        termIndex = timeRangeIndexes[summerTerm.index(pageMonth)] + pageDay - 1
+        termIndex = timeRangeIndexes[timeRange.index(pageMonth)] + pageDay - 1
 
         # If page isn't empty
         if notes is not None:
@@ -181,7 +208,7 @@ for page in allPages:
 
                             # Calculate reading
                             # print(category)
-                            if category == "friends":
+                            if category == "reflecting":
                                 # print(pageTitle)
 
                                 # print(tdelta)
@@ -201,7 +228,7 @@ for page in allPages:
 
 print("-----------")
 print("Analyzed: " + str(pageCount) + " pages")
-print("Activity: reading")
+print("Activity: lunch")
 print("Average time (minutes): " + str(activityMinutes) + "/" +
       str(totalMinutes) + " (" + str(round((activityMinutes/totalMinutes)*100, 2)) + "%)")
 
@@ -213,7 +240,7 @@ ax.xaxis.set_minor_locator(ticker.MultipleLocator(1))
 
 plt.xticks(rotation=45, fontsize=10)
 plt.plot(dates, timeSpent)
-plt.title('Minutes spent per day')
+plt.title('Minutes spent reflecting per day')
 plt.xlabel('Day')
 plt.ylabel('Time (minutes)')
 plt.show()
