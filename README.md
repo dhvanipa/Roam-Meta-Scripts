@@ -6,7 +6,11 @@
 
 Export your highlights by sharing them to your email, then copy the email message here to format it.
 
-https://pateldhvani.com/format/ibooks
+Use it: https://pateldhvani.com/format/ibooks
+
+Running locally:
+
+`python -m http.server`
 
 ## Meta
 
