@@ -1,4 +1,14 @@
-# Roam Meta Scripts
+# Roam Scripts
+
+## Format
+
+### Format iBook Highlights for Roam
+
+Export your highlights by sharing them to your email, then copy the email message here to format it.
+
+https://pateldhvani.com/format/ibooks
+
+## Meta
 
 ### Time Tracking
 
@@ -20,9 +30,5 @@ Make sure each day has the following section:
 ```
 
 This script will then generate a word cloud from each of these sections across a chosen time frame.
-
-### Format iBook Highlights for Roam
-
-https://pateldhvani.com/format/ibooks
 
 > Dhvani

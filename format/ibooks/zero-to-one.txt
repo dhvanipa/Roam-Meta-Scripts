@@ -1,0 +1,778 @@
+NOTES FROM
+
+Zero to One: Notes on Startups, or How to Build the Future
+
+Peter Thiel
+
+January 5, 2021
+Preface: Zero to One
+VERY MOMENT IN BUSINESS happens only once
+
+January 5, 2021
+Preface: Zero to One
+Technology is miraculous because it allows us to do more with less, ratcheting up our fundamental capabilities to a higher level.
+
+January 5, 2021
+1. The Challenge of the Future
+“What important truth do very few people agree with you on?
+
+January 5, 2021
+1. The Challenge of the Future
+Brilliant thinking is rare, but courage is in even shorter supply than genius.
+
+January 5, 2021
+1. The Challenge of the Future
+Most answers to the contrarian question are different ways of seeing the present; good answers are as close as we can come to looking into the future.
+
+January 5, 2021
+1. The Challenge of the Future
+My own answer to the contrarian question is that most people think the future of the world will be defined by globalization, but the truth is that technology matters more.
+
+January 5, 2021
+1. The Challenge of the Future
+New technology has never been an automatic feature of history
+
+January 5, 2021
+1. The Challenge of the Future
+New technology tends to come from new ventures—startups
+
+January 5, 2021
+1. The Challenge of the Future
+Positively defined, a startup is the largest group of people you can convince of a plan to build a different future. A new company’s most important strength is new thinking: even more important than nimbleness, small size affords space to think.
+
+January 5, 2021
+2. Party Like It’s 1999
+The most contrarian thing of all is not to oppose the crowd but to think for yourself.
+
+January 5, 2021
+3. All Happy Companies Are Different
+HE BUSINESS VERSION of our contrarian question is: what valuable company is nobody building? This question is harder than it looks, because your company could create a lot of value without becoming very valuable itself. Creating value is not enough—you also need to capture some of the value you create.
+
+January 5, 2021
+3. All Happy Companies Are Different
+The lesson for entrepreneurs is clear: if you want to create and capture lasting value, don’t build an undifferentiated commodity business.
+
+January 5, 2021
+3. All Happy Companies Are Different
+When you hear that most new restaurants fail within one or two years, your instinct will be to come up with a story about how yours is different. You’ll spend time trying to convince people that you are exceptional instead of seriously considering whether that’s true. It would be better to pause and consider whether there are people in Palo Alto who would rather eat British food above all else. It’s very possible they don’t exist. Am I doing this with healthcare??
+
+January 5, 2021
+5. Last Mover Advantage
+If you focus on near-term growth above all else, you miss the most important question you should be asking: will this business still be around a decade from now? Numbers alone won’t tell you the answer; instead you must think critically about the qualitative characteristics of your business.
+
+January 5, 2021
+5. Last Mover Advantage
+three
+
+January 5, 2021
+5. Last Mover Advantage
+If you think of yourself as an insurgent battling dark forces, it’s easy to become unduly fixated on the obstacles in your path. But if you truly want to make something new, the act of creation is far more important than the old industries that might not like what you create. Am I doing this with healthcare?
+
+January 5, 2021
+6. You Are Not a Lottery Ticket
+HE MOST CONTENTIOUS question in business is whether success comes from luck or skill.
+
+January 5, 2021
+6. You Are Not a Lottery Ticket
+Biotech startups are an extreme example of indefinite thinking. Researchers experiment with things that just might work instead of refining definite theories about how the body’s systems operate. Biologists say they need to work this way because the underlying biology is hard. According to them, IT startups work because we created computers ourselves and designed them to reliably obey our commands. Biotech is difficult because we didn’t design our bodies, and the more we learn about them, the more complex they turn out to be. But today it’s possible to wonder whether the genuine difficulty of biology has become an excuse for biotech startups’ indefinite approach to business in general. Most of the people involved expect some things to work eventually, but few want to commit to a specific company with the level of intensity necessary for success. It starts with the professors who often become part-time consultants instead of full-time employees—even for the biotech startups that begin
+
+January 5, 2021
+6. You Are Not a Lottery Ticket
+In philosophy, politics, and business, too, arguing over process has become a way to endlessly defer making concrete plans for a better future.
+
+January 5, 2021
+6. You Are Not a Lottery Ticket
+from their own research. Then everyone else imitates the professors’ indefinite attitude. It’s easy for libertarians to claim that heavy regulation holds biotech back—and it does—but indefinite optimism may pose an even greater challenge for the future of biotech.
+
+January 5, 2021
+6. You Are Not a Lottery Ticket
+But indefinite optimism seems inherently unsustainable: how can the future get better if no one plans for it? Actually, most everybody in the modern world has already heard an answer to this question: progress without planning is what we call “evolution.” Darwin himself wrote that life tends to “progress” without anybody intending it. Every living thing is just a random iteration on some other organism, and the best iterations win.
+
+January 5, 2021
+6. You Are Not a Lottery Ticket
+Just as Newtonian physics can’t explain black holes or the Big Bang, it’s not clear that Darwinian biology should explain how to build a better society or how to create a new business out of nothing.
+
+January 5, 2021
+6. You Are Not a Lottery Ticket
+But leanness is a methodology, not a goal. Making small changes to things that already exist might lead you to a local maximum, but it won’t help you find the global maximum. You could build the best version of an app that lets people order toilet paper from their iPhone. But iteration without a bold plan won’t take you from 0 to 1. A company is the strangest place of all for an indefinite optimist: why should you expect your own business to succeed without a plan to make it happen? Darwinism may be a fine theory in other contexts, but in startups, intelligent design works best.
+
+January 5, 2021
+6. You Are Not a Lottery Ticket
+It’s true that every great entrepreneur is first and foremost a designer.
+
+January 5, 2021
+6. You Are Not a Lottery Ticket
+The greatest thing Jobs designed was his business. Apple imagined and executed definite multi-year plans to create new products and distribute them effectively. Forget “minimum viable products”—ever since he started Apple in 1976, Jobs saw that you can change the world through careful planning, not by listening to focus group feedback or copying others’ successes.
+
+January 5, 2021
+6. You Are Not a Lottery Ticket
+Long-term planning is often undervalued by our indefinite short-term world.
+
+January 5, 2021
+6. You Are Not a Lottery Ticket
+The power of planning explains the difficulty of valuing private companies. When a big company makes an offer to acquire a successful startup, it almost always offers too much or too little: founders only sell when they have no more concrete visions for the company, in which case the acquirer probably overpaid; definite founders with robust plans don’t sell, which means the offer wasn’t high enough.
+
+January 5, 2021
+6. You Are Not a Lottery Ticket
+A business with a good definite plan will always be underrated in a world where people see the future as random.
+
+January 5, 2021
+6. You Are Not a Lottery Ticket
+We have to find our way back to a definite future, and the Western world needs nothing short of a cultural revolution to do it.
+
+January 5, 2021
+6. You Are Not a Lottery Ticket
+A startup is the largest endeavor over which you can have definite mastery. You can have agency not just over your own life, but over a small and important part of the world. It begins by rejecting the unjust tyranny of Chance. You are not a lottery ticket.
+
+January 6, 2021
+7. Follow the Money
+everyone needs to know exactly one thing that even venture capitalists struggle to understand: we don’t live in a normal world; we live under a power law.
+
+January 6, 2021
+7. Follow the Money
+The biggest secret in venture capital is that the best investment in a successful fund equals or outperforms the entire rest of the fund combined.
+
+January 6, 2021
+7. Follow the Money
+The power law is not just important to investors; rather, it’s important to everybody because everybody is an investor. An entrepreneur makes a major investment just by spending her time working on a startup. Therefore every entrepreneur must think about whether her company is going to succeed and become valuable. Every individual is unavoidably an investor, too. When you choose a career, you act on your belief that the kind of work you do will be valuable decades from now.
+
+January 6, 2021
+7. Follow the Money
+“it doesn’t matter what you do, as long as you do it well.” That is completely false. It does matter what you do. You should focus relentlessly on something you’re good at doing, but before that you must think hard about whether it will be valuable in the future.
+
+January 6, 2021
+7. Follow the Money
+If you do start your own company, you must remember the power law to operate it well. The most important things are singular: One market will probably be better than all others
+
+January 6, 2021
+7. Follow the Money
+One distribution strategy usually dominates all others, too
+
+January 6, 2021
+7. Follow the Money
+Time and decision-making themselves follow a power law, and some moments matter far more than others
+
+January 6, 2021
+8. Secrets
+To say that there are no secrets left today would mean that we live in a society with no hidden injustices.
+
+January 6, 2021
+8. Secrets
+In economics, disbelief in secrets leads to faith in efficient markets.
+
+January 6, 2021
+8. Secrets
+You can’t find secrets without looking for them
+
+January 6, 2021
+8. Secrets
+If you think something hard is impossible, you’ll never even start trying to achieve it. Belief in secrets is an effective truth.
+
+January 6, 2021
+8. Secrets
+The actual truth is that there are many more secrets left to find, but they will yield only to relentless searchers.
+
+January 6, 2021
+8. Secrets
+Great companies can be built on open but unsuspected secrets about how the world works.
+
+January 6, 2021
+8. Secrets
+There are two kinds of secrets: secrets of nature and secrets about people. Natural secrets exist all around us; to find them, one must study some undiscovered aspect of the physical world. Secrets about people are different: they are things that people don’t know about themselves or things they hide because they don’t want others to know. So when thinking about what kind of company to build, there are two distinct questions to ask: What secrets is nature not telling you? What secrets are people not telling you?
+
+January 6, 2021
+8. Secrets
+The best place to look for secrets is where no one else is looking.
+
+January 6, 2021
+8. Secrets
+If you find a secret, you face a choice: Do you tell anyone? Or do you keep it to yourself? It depends on the secret: some are more dangerous than others.
+
+January 6, 2021
+8. Secrets
+Unless you have perfectly conventional beliefs, it’s rarely a good idea to tell everybody everything that you know. So who do you tell? Whoever you need to, and no more. In practice, there’s always a golden mean between telling nobody and telling everybody—and that’s a company. The best entrepreneurs know this: every great business is built around a secret that’s hidden from the outside. A great company is a conspiracy to change the world; when you share your secret, the recipient becomes a fellow conspirator
+
+January 6, 2021
+9. Foundations
+VERY GREAT COMPANY is unique, but there are a few things that every business must get right at the beginning. I stress this so often that friends have teasingly nicknamed it “Thiel’s law”: a startup messed up at its foundation cannot be fixed.
+
+January 6, 2021
+9. Foundations
+Companies are like countries in this way. Bad decisions made early on—if you choose the wrong partners or hire the wrong people, for example—are very hard to correct after they are made. It may take a crisis on the order of bankruptcy before anybody will even try to correct them. As a founder, your first job is to get the first things right, because you cannot build a great company on a flawed foundation.
+
+January 6, 2021
+9. Foundations
+When you start something, the first and most crucial decision you make is whom to start it with. Choosing a co-founder is like getting married, and founder conflict is just as ugly as divorce. Optimism abounds at the start of every relationship. It’s unromantic to think soberly about what could go wrong, so people don’t. But if the founders develop irreconcilable differences, the company becomes the victim.
+
+January 6, 2021
+9. Foundations
+To anticipate likely sources of misalignment in any company, it’s useful to distinguish between three concepts: • Ownership: who legally owns a company’s equity? • Possession: who actually runs the company on a day-to-day basis?
+
+January 6, 2021
+9. Foundations
+It’s not just founders who need to get along. Everyone in your company needs to work well together
+
+January 6, 2021
+9. Foundations
+You need good people who get along, but you also need a structure to help keep everyone aligned for the long term.
+
+January 6, 2021
+9. Foundations
+• Control: who formally governs the company’s affairs?
+
+January 6, 2021
+9. Foundations
+A typical startup allocates ownership among founders, employees, and investors. The managers and employees who operate the company enjoy possession. And a board of directors, usually comprising founders and investors, exercises control.
+
+January 6, 2021
+9. Foundations
+In the boardroom, less is more.
+
+January 6, 2021
+9. Foundations
+every single member of your board matters. Even one problem director will cause you pain, and may even jeopardize your company’s future.
+
+January 6, 2021
+9. Foundations
+A board of three is ideal. Your board should never exceed five people, unless your company is publicly held.
+
+January 6, 2021
+9. Foundations
+As a general rule, everyone you involve with your company should be involved full-time. Sometimes you’ll have to break this rule; it usually makes sense to hire outside lawyers and accountants, for example. However, anyone who doesn’t own stock options or draw a regular salary from your company is fundamentally misaligned. At the margin, they’ll be biased to claim value in the near term, not help you create more in the future. That’s why hiring consultants doesn’t work. Part-time employees don’t work. Even working remotely should be avoided, because misalignment can creep in whenever colleagues aren’t together full-time, in the same place, every day. If you’re deciding whether to bring someone on board, the decision is binary. Ken Kesey was right: you’re either on the bus or off the bus.
+
+January 6, 2021
+9. Foundations
+For people to be fully committed, they should be properly compensated.
+
+January 6, 2021
+9. Foundations
+In no case should a CEO of an early-stage, venture-backed startup receive more than $150,000 per year in salary.
+
+January 6, 2021
+9. Foundations
+A company does better the less it pays the CEO
+
+January 6, 2021
+9. Foundations
+Cash is attractive. It offers pure optionality: once you get your paycheck, you can do anything you want with it. However, high cash compensation teaches workers to claim value from the company as it already exists instead of investing their time to create new value in the future. A cash bonus is slightly better than a cash salary—at least it’s contingent on a job well done. But even so-called incentive pay encourages short-term thinking and value grabbing. Any kind of cash is more about the present than the future.
+
+January 6, 2021
+9. Foundations
+Startups don’t need to pay high salaries because they can offer something better: part ownership of the company itself. Equity is the one form of compensation that can effectively orient people toward creating value in the future.
+
+January 6, 2021
+9. Foundations
+However, for equity to create commitment rather than conflict, you must allocate it very carefully.
+
+January 6, 2021
+9. Foundations
+Since it’s impossible to achieve perfect fairness when distributing ownership, founders would do well to keep the details secret. Sending out a company-wide email that lists everyone’s ownership stake would be like dropping a nuclear bomb on your office.
+
+January 6, 2021
+9. Foundations
+Equity is a powerful tool precisely because of these limitations. Anyone who prefers owning a part of your company to being paid in cash reveals a preference for the long term and a commitment to increasing your company’s value in the future. Equity can’t create perfect incentives, but it’s the best way for a founder to keep everyone in the company broadly aligned.
+
+January 6, 2021
+9. Foundations
+Bob Dylan has said that he who is not busy being born is busy dying. If he’s right, being born doesn’t happen at just one moment—you might even continue to do it somehow, poetically at least. The founding moment of a company, however, really does happen just once: only at the very start do you have the opportunity to set the rules that will align people toward the creation of value in the future. The most valuable kind of company maintains an openness to invention that is most characteristic of beginnings. This leads to a second, less obvious understanding of the founding: it lasts as long as a company is creating new things, and it ends when creation stops. If you get the founding moment right, you can do more than create a valuable company: you can steer its distant future toward the creation of new things instead of the stewardship of inherited success. You might even extend its founding indefinitely.
+
+January 7, 2021
+10. The Mechanics of Mafia
+What’s wrong with this picture? It includes some of the absurd perks Silicon Valley has made famous, but none of the substance—and without substance perks don’t work. You can’t accomplish anything meaningful by hiring an interior decorator to beautify your office, a “human resources” consultant to fix your policies, or a branding specialist to hone your buzzwords. “Company culture” doesn’t exist apart from the company itself: no company has a culture; every company is a culture. A startup is a team of people on a mission, and a good culture is just what that looks like on the inside.
+
+January 7, 2021
+10. The Mechanics of Mafia
+If you can’t count durable relationships among the fruits of your time at work, you haven’t invested your time well—even in purely financial terms.
+
+January 7, 2021
+10. The Mechanics of Mafia
+More important than those obvious offerings is your answer to this question: Why should the 20th employee join your company?
+
+January 7, 2021
+10. The Mechanics of Mafia
+Recruiting is a core competency for any company. It should never be outsourced. You need people who are not just skilled on paper but who will work together cohesively after they’re hired.
+
+January 7, 2021
+10. The Mechanics of Mafia
+Why would someone join your company as its 20th engineer when she could go work at Google for more money and more prestige?
+
+January 7, 2021
+10. The Mechanics of Mafia
+The only good answers are specific to your company, so you won’t find them in this book. But there are two general kinds of good answers: answers about your mission and answers about your team. You’ll attract the employees you need if you can explain why your mission is compelling: not why it’s important in general, but why you’re doing something important that no one else is going to get done. That’s the only thing that can make its importance unique.
+
+January 7, 2021
+10. The Mechanics of Mafia
+However, even a great mission is not enough. The kind of recruit who would be most engaged as an employee will also wonder: “Are these the kind of people I want to work with?” You should be able to explain why your company is a unique match for him personally. And if you can’t do that, he’s probably not the right match.
+
+January 7, 2021
+10. The Mechanics of Mafia
+Just cover the basics like health insurance and then promise what no others can: the opportunity to do irreplaceable work on a unique problem alongside great people
+
+January 7, 2021
+10. The Mechanics of Mafia
+From the outside, everyone in your company should be different in the same way.
+
+January 7, 2021
+10. The Mechanics of Mafia
+The startup uniform encapsulates a simple but essential principle: everyone at your company should be different in the same way—a tribe of like-minded people fiercely devoted to the company’s mission.
+
+January 7, 2021
+10. The Mechanics of Mafia
+Startups have limited resources and small teams. They must work quickly and efficiently in order to survive, and that’s easier to do when everyone shares an understanding of the world.
+
+January 7, 2021
+10. The Mechanics of Mafia
+On the inside, every individual should be sharply distinguished by her work.
+
+January 7, 2021
+10. The Mechanics of Mafia
+Most fights inside a company happen when colleagues compete for the same responsibilities.
+
+January 7, 2021
+10. The Mechanics of Mafia
+defining roles reduced conflict
+
+January 7, 2021
+10. The Mechanics of Mafia
+Eliminating competition makes it easier for everyone to build the kinds of long-term relationships that transcend mere professionalism.
+
+January 7, 2021
+10. The Mechanics of Mafia
+Internal conflict is like an autoimmune disease: the technical cause of death may be pneumonia, but the real cause remains hidden from plain view.
+
+January 7, 2021
+10. The Mechanics of Mafia
+The best startups might be considered slightly less extreme kinds of cults. The biggest difference is that cults tend to be fanatically wrong about something important. People at a successful startup are fanatically right about something those outside it have missed. You’re not going to learn those kinds of secrets from consultants, and you don’t need to worry if your company doesn’t make sense to conventional professionals. Better to be called a cult—or even a mafia.
+
+January 7, 2021
+11. If You Build It, Will They Come?
+VEN THOUGH SALES is everywhere, most people underrate its importance. Silicon Valley underrates it more than most.
+
+January 7, 2021
+11. If You Build It, Will They Come?
+Distribution may not matter in fictional worlds, but it matters in ours. We underestimate the importance of distribution—a catchall term for everything it takes to sell a product—because we share the same bias the A Ship and C Ship people had: salespeople and other “middlemen” supposedly get in the way, and distribution should flow magically from the creation of a good product.
+
+January 7, 2021
+11. If You Build It, Will They Come?
+But customers will not come just because you build it. You have to make that happen, and it’s harder than it looks.
+
+January 7, 2021
+11. If You Build It, Will They Come?
+In Silicon Valley, nerds are skeptical of advertising, marketing, and sales because they seem superficial and irrational. But advertising matters because it works. It works on nerds, and it works on you. You may think that you’re an exception; that your preferences are authentic, and advertising only works on other people. It’s easy to resist the most obvious sales pitches, so we entertain a false confidence in our own independence of mind. But advertising doesn’t exist to make you buy a product right away; it exists to embed subtle impressions that will drive sales later. Anyone who can’t acknowledge its likely effect on himself is doubly deceived.
+
+January 7, 2021
+11. If You Build It, Will They Come?
+Nerds are used to transparency.
+
+January 7, 2021
+11. If You Build It, Will They Come?
+Sales is the opposite: an orchestrated campaign to change surface appearances without changing the underlying reality. This strikes engineers as trivial if not fundamentally dishonest. They know their own jobs are hard, so when they look at salespeople laughing on the phone with a customer or going to two-hour lunches, they suspect that no real work is being done. If anything, people overestimate the relative difficulty of science and engineering, because
+
+January 7, 2021
+11. If You Build It, Will They Come?
+the challenges of those fields are obvious. What nerds miss is that it takes hard work to make sales look easy.
+
+January 7, 2021
+11. If You Build It, Will They Come?
+All salesmen are actors: their priority is persuasion, not sincerity
+
+January 7, 2021
+11. If You Build It, Will They Come?
+Like acting, sales works best when hidden. This explains why almost everyone whose job involves distribution—whether they’re in sales, marketing, or advertising—has a job title that has nothing to do with those things. People who sell advertising are called “account executives.” People who sell customers work in “business development.” People who sell companies are “investment bankers.” And people who sell themselves are called “politicians.” There’s a reason for these redescriptions: none of us wants to be reminded when we’re being sold.
+
+January 7, 2021
+11. If You Build It, Will They Come?
+Whatever the career, sales ability distinguishes superstars from also-rans.
+
+January 7, 2021
+11. If You Build It, Will They Come?
+The most fundamental reason that even businesspeople underestimate the importance of sales is the systematic effort to hide it at every level of every field in a world secretly driven by it.
+
+January 7, 2021
+11. If You Build It, Will They Come?
+The engineer’s grail is a product great enough that “it sells itself.” But anyone who would actually say this about a real product must be lying: either he’s delusional (lying to himself) or he’s selling something (and thereby contradicting himself). The polar opposite business cliché warns that “the best product doesn’t always win.” Economists attribute this to “path dependence”: specific historical circumstances independent of objective quality can determine which products enjoy widespread adoption. That’s true, but it doesn’t mean the operating systems we use today and the keyboard layouts on which we type were imposed by mere chance. It’s better to think of distribution as something essential to the design of your product. If you’ve invented something new but you haven’t invented an effective way to sell it, you have a bad business—no matter how good the product.
+
+January 7, 2021
+11. If You Build It, Will They Come?
+Superior sales and distribution by itself can create a monopoly, even with no product differentiation. The converse is not true. No matter how strong your product—even if it easily fits into already established habits and anybody who tries it likes it immediately—you must still support it with a strong distribution plan.
+
+January 7, 2021
+11. If You Build It, Will They Come?
+Two metrics set the limits for effective distribution. The total net profit that you earn on average over the course of your relationship with a customer (Customer Lifetime Value, or CLV) must exceed the amount you spend on average to acquire a new customer (Customer Acquisition Cost, or CAC). In general, the higher the price of your product, the more you have to spend to make a sale—and the more it makes sense to spend it. Distribution methods can be plotted on a continuum:
+
+January 7, 2021
+11. If You Build It, Will They Come?
+Politics matters in big deals just as much as technological ingenuity, so this wasn’t easy
+
+January 7, 2021
+11. If You Build It, Will They Come?
+But since complex sales requires making just a few deals each year, a sales grandmaster like Elon Musk can use that time to focus on the most crucial people—and even to overcome political inertia.
+
+January 7, 2021
+11. If You Build It, Will They Come?
+Complex sales works best when you don’t have “salesmen” at all.
+
+January 7, 2021
+11. If You Build It, Will They Come?
+Businesses with complex sales models succeed if they achieve 50% to 100% year-over-year growth over the course of a decade.
+
+January 7, 2021
+11. If You Build It, Will They Come?
+In between personal sales (salespeople obviously required) and traditional advertising (no salespeople required) there is a dead zone.
+
+January 7, 2021
+11. If You Build It, Will They Come?
+This is why so many small and medium-sized businesses don’t use tools that bigger firms take for granted. It’s not that small business proprietors are unusually backward or that good tools don’t exist: distribution is the hidden bottleneck.
+
+January 7, 2021
+11. If You Build It, Will They Come?
+Marketing and advertising work for relatively low-priced products that have mass appeal but lack any method of viral distribution.
+
+January 7, 2021
+11. If You Build It, Will They Come?
+Advertising can work for startups, too, but only when your customer acquisition costs and customer lifetime value make every other distribution channel uneconomical.
+
+January 7, 2021
+11. If You Build It, Will They Come?
+Every entrepreneur envies a recognizable ad campaign, but startups should resist the temptation to compete with bigger companies in the endless contest to put on the most memorable TV spots or the most elaborate PR stunts
+
+January 7, 2021
+11. If You Build It, Will They Come?
+A product is viral if its core functionality encourages users to invite their friends to become users too
+
+January 7, 2021
+11. If You Build It, Will They Come?
+Whoever is first to dominate the most important segment of a market with viral potential will be the last mover in the whole market
+
+January 7, 2021
+11. If You Build It, Will They Come?
+One of these methods is likely to be far more powerful than every other for any given business: distribution follows a power law of its own. This is counterintuitive for most entrepreneurs, who assume that more is more.
+
+January 7, 2021
+11. If You Build It, Will They Come?
+Most businesses get zero distribution channels to work: poor sales rather than bad product is the most common cause of failure.
+
+January 7, 2021
+11. If You Build It, Will They Come?
+Your company needs to sell more than its product. You must also sell your company to employees and investors. There is a “human resources” version of the lie that great products sell themselves: “This company is so good that people will be clamoring to join it.” And there’s a fundraising version too: “This company is so great that investors will be banging down our door to invest.” Clamor and frenzy are very real, but they rarely happen without calculated recruiting and pitching beneath the surface.
+
+January 7, 2021
+11. If You Build It, Will They Come?
+Selling your company to the media is a necessary part of selling it to everyone else. Nerds who instinctively mistrust the media often make the mistake of trying to ignore it. But just as you can never expect people to buy a superior product merely on its obvious merits without any distribution strategy, you should never assume that people will admire your company without a public relations strategy. Even if your particular product doesn’t need media exposure to acquire customers because you have a viral distribution strategy, the press can help attract investors and employees. Any prospective employee worth hiring will do his own diligence; what he finds or doesn’t find when he googles you will be critical to the success of your company.
+
+January 7, 2021
+11. If You Build It, Will They Come?
+Nerds might wish that distribution could be ignored and salesmen banished to another planet. All of us want to believe that we make up our own minds, that sales doesn’t work on us. But it’s not true. Everybody has a product to sell—no matter whether you’re an employee, a founder, or an investor. It’s true even if your company consists of just you and your computer. Look around. If you don’t see any salespeople, you’re the salesperson.
+
+January 7, 2021
+12. Man and Machine
+But that premise is wrong: computers are complements for humans, not substitutes. The most valuable businesses of coming decades will be built by entrepreneurs who seek to empower people rather than try to make them obsolete
+
+January 7, 2021
+12. Man and Machine
+humans really can substitute for each other
+
+January 7, 2021
+12. Man and Machine
+near
+
+January 7, 2021
+12. Man and Machine
+people compete for jobs and for resources; computers compete for neither.
+
+January 7, 2021
+12. Man and Machine
+Globalization Means Substitution
+
+January 7, 2021
+12. Man and Machine
+People don’t just compete to supply labor; they also demand the same resources
+
+January 7, 2021
+12. Man and Machine
+desire doesn’t stop at subsistence—people will demand ever more as globalization continues.
+
+January 7, 2021
+12. Man and Machine
+Technology Means Complementarity
+
+January 7, 2021
+12. Man and Machine
+On the supply side, computers are far more different from people than any two people are different from each other: men and machines are good at fundamentally different things
+
+January 7, 2021
+12. Man and Machine
+The stark differences between man and machine mean that gains from working with computers are much higher than gains from trade with other people. We don’t trade with computers any more than we trade with livestock or lamps. And that’s the point: computers are tools, not rivals.
+
+January 7, 2021
+12. Man and Machine
+The differences are even deeper on the demand side. Unlike people in industrializing countries, computers don’t yearn for more luxurious foods or beachfront villas in Cap Ferrat; all they require is a nominal amount of electricity, which they’re not even smart enough to want. When we design new computer technology to help solve problems, we get all the efficiency gains of a hyperspecialized trading partner without having to compete with it for resources. Properly understood, technology is the one way for us to escape competition in a globalizing world. As computers become more and more powerful, they won’t be substitutes for humans: they’ll be complements.
+
+January 7, 2021
+12. Man and Machine
+The other buzzword that epitomizes a bias toward substitution is “big data.” Today’s companies have an insatiable appetite for data, mistakenly believing that more data always creates more value. But big data is usually dumb data. Computers can find patterns that elude humans, but they don’t know how to compare patterns from different sources or how to interpret complex behaviors. Actionable insights can only come from a human analyst (or the kind of generalized artificial intelligence that exists only in science fiction). We have let ourselves become enchanted by big data only because we exoticize technology. We’re impressed with small feats accomplished by computers alone, but we ignore big achievements from complementarity because the human contribution makes them less uncanny. Watson, Deep Blue, and ever-better machine learning algorithms are cool. But the most valuable companies in the future won’t ask what problems can be solved with computers alone. Instead, they’ll ask: how can computers help humans solve hard problems?
+
+January 7, 2021
+12. Man and Machine
+Complementarity between computers and humans isn’t just a macro-scale fact. It’s also the path to building a great business.
+
+January 7, 2021
+12. Man and Machine
+if humans and computers together could achieve dramatically better results than either could attain alone, what other valuable businesses could be built on this core principle?
+
+January 7, 2021
+12. Man and Machine
+Better technology in law, medicine, and education won’t replace professionals; it will allow them to do even more.
+
+January 7, 2021
+12. Man and Machine
+Technology is supposed to increase our mastery over nature and reduce the role of chance in our lives
+
+January 7, 2021
+12. Man and Machine
+Strong AI is like a cosmic lottery ticket: if we win, we get utopia; if we lose, Skynet substitutes us out of existence.
+
+January 7, 2021
+12. Man and Machine
+But even if strong AI is a real possibility rather than an imponderable mystery, it won’t happen anytime soon: replacement by computers is a worry for the 22nd century. Indefinite fears about the far future shouldn’t stop us from making definite plans today.
+
+January 7, 2021
+12. Man and Machine
+As we find new ways to use computers, they won’t just get better at the kinds of things people already do; they’ll help us to do what was previously unimaginable.
+
+January 7, 2021
+13. Seeing Green
+AT THE START of the 21st century, everyone agreed that the next big thing was clean technology.
+
+January 7, 2021
+13. Seeing Green
+It didn’t work. Instead of a healthier planet, we got a massive cleantech bubble.
+
+January 7, 2021
+13. Seeing Green
+Why did cleantech fail?
+
+January 7, 2021
+13. Seeing Green
+Most cleantech companies crashed because they neglected one or more of the seven questions that every business must answer:
+
+January 7, 2021
+13. Seeing Green
+1. The Engineering Question Can you create breakthrough technology instead of incremental improvements? 2. The Timing Question Is now the right time to start your particular business? 3. The Monopoly Question Are you starting with a big share of a small market? 4. The People Question Do you have the right team? 5. The Distribution Question
+
+January 7, 2021
+13. Seeing Green
+Do you have a way to not just create but deliver your product? 6. The Durability Question Will your market position be defensible 10 and 20 years into the future? 7. The Secret Question Have you identified a unique opportunity that others don’t see?
+
+January 7, 2021
+13. Seeing Green
+If you don’t have good answers to these questions, you’ll run into lots of “bad luck” and your business will fail. If you nail all seven, you’ll master fortune and succeed. Even getting five or six correct might work.
+
+January 7, 2021
+13. Seeing Green
+THE ENGINEERING QUESTION
+
+January 7, 2021
+13. Seeing Green
+Companies must strive for 10x better because merely incremental improvements often end up meaning no improvement at all for the end user.
+
+January 7, 2021
+13. Seeing Green
+Only when your product is 10x better can you offer the customer transparent superiority.
+
+January 7, 2021
+13. Seeing Green
+THE TIMING QUESTION
+
+January 7, 2021
+13. Seeing Green
+Entering a slow-moving market can be a good strategy, but only if you have a definite and realistic plan to take it over.
+
+January 7, 2021
+13. Seeing Green
+THE MONOPOLY QUESTION
+
+January 7, 2021
+13. Seeing Green
+Customers won’t care about any particular technology unless it solves a particular problem in a superior way. And if you can’t monopolize a unique solution for a small market, you’ll be stuck with vicious competition.
+
+January 7, 2021
+13. Seeing Green
+Exaggerating your own uniqueness is an easy way to botch the monopoly question.
+
+January 7, 2021
+13. Seeing Green
+you can’t dominate a submarket if it’s fictional, and huge markets are highly competitive, not highly attainable
+
+January 7, 2021
+13. Seeing Green
+THE PEOPLE QUESTION
+
+January 7, 2021
+13. Seeing Green
+Energy problems are engineering problems, so you would expect to find nerds running cleantech companies. You’d be wrong: the ones that failed were run by shockingly nontechnical teams. These salesman-executives were good at raising capital and securing government subsidies, but they were less good at building products that customers wanted to buy.
+
+January 7, 2021
+13. Seeing Green
+But the team insight—never invest in a tech CEO that wears a suit—got us to the truth a lot faster. The best sales is hidden. There’s nothing wrong with a CEO who can sell, but if he actually looks like a salesman, he’s probably bad at sales and worse at tech.
+
+January 7, 2021
+13. Seeing Green
+THE DISTRIBUTION QUESTION
+
+January 7, 2021
+13. Seeing Green
+Cleantech companies effectively courted government and investors, but they often forgot about customers. They learned the hard way that the world is not a laboratory: selling and delivering a product is at least as important as the product itself
+
+January 7, 2021
+13. Seeing Green
+THE DURABILITY QUESTION
+
+January 7, 2021
+13. Seeing Green
+Every entrepreneur should plan to be the last mover in her particular market. That starts with asking yourself: what will the world look like 10 and 20 years from now, and how will my business fit in?
+
+January 7, 2021
+13. Seeing Green
+THE SECRET QUESTION
+
+January 7, 2021
+13. Seeing Green
+Every cleantech company justified itself with conventional truths about the need for a cleaner world. They deluded themselves into believing that an overwhelming social need for alternative energy solutions implied an overwhelming business opportunity for cleantech companies of all kinds.
+
+January 7, 2021
+13. Seeing Green
+Each of the casualties had described their bright futures using broad conventions on which everybody agreed. Great companies have secrets: specific reasons for success that other people don’t see.
+
+January 7, 2021
+13. Seeing Green
+Cleantech entrepreneurs aimed for more than just success as most businesses define it. The cleantech bubble was the biggest phenomenon—and the biggest flop—in the history of “social entrepreneurship.” This philanthropic approach to business starts with the idea that corporations and nonprofits have until now been polar opposites: corporations have great power, but they’re shackled to the profit motive; nonprofits pursue the public interest, but they’re weak players in the wider economy. Social entrepreneurs aim to combine the best of both worlds and “do well by doing good.” Usually they end up doing neither. The ambiguity between social and financial goals doesn’t help. But the ambiguity in the word “social” is even more of a problem: if something is “socially good,” is it good for society, or merely seen as good by society? Whatever is good enough to receive applause from all audiences can only be conventional, like the general idea of green energy.
+
+January 7, 2021
+13. Seeing Green
+Progress isn’t held back by some difference between corporate greed and nonprofit goodness; instead, we’re held back by the sameness of both. Just as corporations tend to copy each other, nonprofits all tend to push the same priorities. Cleantech shows the result: hundreds of undifferentiated products all in the name of one overbroad goal. Doing something different is what’s truly good for society—and it’s also what allows a business to profit by monopolizing a new market. The best projects are likely to be overlooked, not trumpeted by a crowd; the best problems to work on are often the ones nobody else even tries to solve.
+
+January 7, 2021
+13. Seeing Green
+THE MYTH OF SOCIAL ENTREPRENEURSHIP
+
+January 7, 2021
+13. Seeing Green
+While generic cleantech companies struggled to differentiate themselves, Tesla built a unique brand around the secret that cleantech was even more of a social phenomenon than an environmental imperative.
+
+January 7, 2021
+13. Seeing Green
+Tesla’s success proves that there was nothing inherently wrong with cleantech. The biggest idea behind it is right: the world really will need new sources of energy. Energy is the master resource: it’s how we feed ourselves, build shelter, and make everything we need to live comfortably. Most of the world dreams of living as comfortably as Americans do today, and globalization will cause increasingly severe energy challenges unless we build new technology. There simply aren’t enough resources in the world to replicate old approaches or redistribute our way to prosperity.
+
+January 7, 2021
+13. Seeing Green
+Cleantech gave people a way to be optimistic about the future of energy. But when indefinitely optimistic investors betting on the general idea of green energy funded cleantech companies that lacked specific business plans, the result was a bubble.
+
+January 7, 2021
+13. Seeing Green
+The 1990s had one big idea: the internet is going to be big. But too many internet companies had exactly that same idea and no others. An entrepreneur can’t benefit from macro-scale insight unless his own plans begin at the micro-scale.
+
+January 7, 2021
+13. Seeing Green
+No sector will ever be so important that merely participating in it will be enough to build a great company.
+
+January 7, 2021
+13. Seeing Green
+The macro need for energy solutions is still real. But a valuable business must start by finding a niche and dominating a small market.
+
+January 7, 2021
+14. The Founder’s Paradox
+Are all founders unusual people? Or do we just tend to remember and exaggerate whatever is most unusual about them? More important, which personal traits actually matter in a founder? This chapter is about why it’s more powerful but at the same time more dangerous for a company to be led by a distinctive individual instead of an interchangeable manager.
+
+January 7, 2021
+14. The Founder’s Paradox
+Some people are strong, some are weak, some are geniuses, some are dullards—but most people are in the middle. Plot where everyone falls and you’ll see a bell curve:
+
+January 7, 2021
+14. The Founder’s Paradox
+Since so many founders seem to have extreme traits, you might guess that a plot showing only founders’ traits would have fatter tails with more people at either end.
+
+January 7, 2021
+14. The Founder’s Paradox
+But that doesn’t capture the strangest thing about founders. Normally we expect opposite traits to be mutually exclusive: a normal person can’t be both rich and poor at the same time, for instance. But it happens all the time to founders: startup CEOs can be cash poor but millionaires on paper. They may oscillate between sullen jerkiness and appealing charisma. Almost all successful entrepreneurs are simultaneously insiders and outsiders. And when they do succeed, they attract both fame and infamy. When you plot them out, founders’ traits appear to follow an inverse normal distribution:
+
+January 7, 2021
+14. The Founder’s Paradox
+Where does this strange and extreme combination of traits come from?
+
+January 7, 2021
+14. The Founder’s Paradox
+The cycle usually starts with unusual people and ends with them acting and seeming even more unusual:
+
+January 7, 2021
+14. The Founder’s Paradox
+The most famous people in the world are founders, too: instead of a company, every celebrity founds and cultivates a personal brand.
+
+January 7, 2021
+14. The Founder’s Paradox
+Who makes an effective scapegoat? Like founders, scapegoats are extreme and contradictory figures. On the one hand, a scapegoat is necessarily weak; he is powerless to stop his own victimization. On the other hand, as the one who can defuse conflict by taking the blame, he is the most powerful member of the community. Before execution, scapegoats were often worshipped like deities.
+
+January 7, 2021
+14. The Founder’s Paradox
+Extreme founder figures are not new in human affairs. Classical mythology is full of them.
+
+January 7, 2021
+14. The Founder’s Paradox
+Normal people aren’t like Oedipus or Romulus. Whatever those individuals were actually like in life, the mythologized versions of them remember only the extremes. But why was it so important for archaic cultures to remember extraordinary people?
+
+January 7, 2021
+14. The Founder’s Paradox
+The famous and infamous have always served as vessels for public sentiment: they’re praised amid prosperity and blamed for misfortune. Primitive societies faced one fundamental problem above all: they would be torn apart by conflict if they didn’t have a way to stop it. So whenever plagues, disasters, or violent rivalries threatened the peace, it was beneficial for the society to place the entire blame on a single person, someone everybody could agree on: a scapegoat.
+
+January 7, 2021
+14. The Founder’s Paradox
+These are the roots of monarchy: every king was a living god, and every god a murdered king. Perhaps every modern king is just a scapegoat who has managed to delay his own execution.
+
+January 7, 2021
+14. The Founder’s Paradox
+Celebrities are supposedly “American royalty.” We even grant titles to our favorite performers
+
+January 7, 2021
+14. The Founder’s Paradox
+We alternately worship and despise technology founders just as we do celebrities
+
+January 7, 2021
+14. The Founder’s Paradox
+Apple’s value crucially depended on the singular vision of a particular person. This hints at the strange way in which the companies that create new technology often resemble feudal monarchies rather than organizations that are supposedly more “modern.” A unique founder can make authoritative decisions, inspire strong personal loyalty, and plan ahead for decades. Paradoxically, impersonal bureaucracies staffed by trained professionals can last longer than any lifetime, but they usually act with short time horizons.
+
+January 7, 2021
+14. The Founder’s Paradox
+The lesson for business is that we need founders. If anything, we should be more tolerant of founders who seem strange or extreme; we need unusual individuals to lead companies beyond mere incrementalism.
+
+January 7, 2021
+14. The Founder’s Paradox
+The lesson for founders is that individual prominence and adulation can never be enjoyed except on the condition that it may be exchanged for individual notoriety and demonization at any moment—so be careful.
+
+January 7, 2021
+14. The Founder’s Paradox
+Above all, don’t overestimate your own power as an individual. Founders are important not because they are the only ones whose work has value, but rather because a great founder can bring out the best work from everybody at his company. That we need individual founders in all their peculiarity does not mean that we are called to worship Ayn Randian “prime movers” who claim to be independent of everybody around them. In this respect Rand was a merely half-great writer: her villains were real, but her heroes were fake. There is no Galt’s Gulch. There is no secession from society. To believe yourself invested with divine self-sufficiency is not the mark of a strong individual, but of a person who has mistaken the crowd’s worship—or jeering—for the truth. The single greatest danger for a founder is to become so certain of his own myth that he loses his mind. But an equally insidious danger for every business is to lose all sense of myth and mistake disenchantment for wisdom.
+
+January 7, 2021
+Conclusion: Stagnation or Singularity?
+Whether we achieve the Singularity on a cosmic scale is perhaps less important than whether we seize the unique opportunities we have to do new things in our own working lives. Everything important to us—the universe, the planet, the country, your company, your life, and this very moment—is singular. Our task today is to find singular ways to create the new things that will make the future not just different, but better—to go from 0 to 1. The essential first step is to think for yourself. Only by seeing our world anew, as fresh and strange as it was to the ancients who saw it first, can we both re-create it and preserve it for the future.
+
+January 7, 2021
+Conclusion: Stagnation or Singularity?
+IF EVEN THE MOST FARSIGHTED founders cannot plan beyond the next 20 to 30 years, is there anything to say about the very distant future? We don’t know anything specific, but we can make out the broad contours. Philosopher Nick Bostrom describes four possible patterns for the future of humanity.
+
+January 7, 2021
+Conclusion: Stagnation or Singularity?
+However, when you add competition to consume scarce resources, it’s hard to see how a global plateau could last indefinitely. Without new technology to relieve competitive pressures, stagnation is likely to erupt into conflict. In case of conflict on a global scale, stagnation collapses into extinction.
+
+January 7, 2021
+Conclusion: Stagnation or Singularity?
+That leaves the fourth scenario, in which we create new technology to make a much better future. The most dramatic version of this outcome is called the Singularity, an attempt to name the imagined result of new technologies so powerful as to transcend the current limits of our understanding.
+
+January 7, 2021
+Conclusion: Stagnation or Singularity?
+But no matter how many trends can be traced, the future won’t happen on its own. What the Singularity would look like matters less than the stark choice we face today between the two most likely scenarios: nothing or something. It’s up to us. We cannot take for granted that the future will be better, and that means we need to work to create it today.
+
+All Excerpts From
+
+Thiel, Peter. “Zero to One: Notes on Startups, or How to Build the Future.” Crown Publishing Group, 2014-09-16T04:00:00+00:00. Apple Books. 
+This material may be protected by copyright.
