@@ -66,13 +66,19 @@ categories = {
     "planning": [],
     "reading": [],
     "writing": [],
+    "learning": [],
     "coding": [],
 
     "work": [],
     "co-op": [],
     "school": [],
     "workout": [],
+    "mentoring": [],
     "bookmarks": [],
+    "intrinsic building": [],
+
+    "body": [],
+    "soul": [],
 
     "errands": [],
     "transition": [],
@@ -81,17 +87,29 @@ categories = {
     "procrastination": [],
 
     # Specific
+    "health": [],
     "healthcare": [],
+    "cells": [],
+    "podcast": [],
+    "yc": [],
+    "music": [],
 }
 
-otherCategoriesRaw = {
+otherCategories = {
     "cs349": "school",
+    "cs 349": "school",
     "cs341": "school",
+    "cs 341": "school",
     "se350": "school",
+    "se 350": "school",
     "math213": "school",
+    "math 213": "school",
     "se465": "school",
+    "se 465": "school",
     "econ101": "school",
+    "econ 101": "school",
     "che161": "school",
+    "che 161": "school",
 }
 
 pageCount = 0
@@ -119,6 +137,21 @@ for page in allPages:
 
                         task = parentTitle[parentTitle.index(timeBlock[1])+6:]
                         task = task.lower().lstrip().rstrip()
+
+                        if task != None:
+                            category = [key for key, value in categories.items() if key.lower() in task]
+                            if len(category) != 1:
+                                category = [key for key, value in otherCategories.items() if key.lower() in task]
+                                if len(category) != 1:
+                                    print("FIX TAG: ")
+                                    print("-"*10)
+                                    print(page.get("title"))
+                                    print(task)
+                                    print("-"*10)
+                                    continue
+                            category = category[0]
+
+                            categoryTimes = categories.get(category)
 
             pageCount += 1
 
