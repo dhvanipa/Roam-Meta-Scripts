@@ -112,7 +112,12 @@ otherCategories = {
     "che 161": "school",
 }
 
+# Set initial times for each day, for each category to zero
+for category in categories.keys():
+    categories[category] = [0] * len(dates)
+
 pageCount = 0
+skippedTags = []
 
 for page in allPages:
     pageTitle = page.get("title")
@@ -124,6 +129,8 @@ for page in allPages:
 
         # Filter time range selected
         if dailyPage >= startTermDate and dailyPage <= endTermDate:
+            dateIndex = next((i for i, item in enumerate(dates) if item == dailyPage), -1)
+
             notes = page.get("children")
             if notes is not None:
                 for note in notes:
@@ -133,63 +140,56 @@ for page in allPages:
                     # If time tracking parent note and if end time exists
                     timeBlock = parseTimeBlock(parentTitle)
                     if timeBlock != None:
-                        tdelta = getTimeDelta(timeBlock[0], timeBlock[1])
+                        taskMinutes = getTimeDelta(timeBlock[0], timeBlock[1])
 
                         task = parentTitle[parentTitle.index(timeBlock[1])+6:]
                         task = task.lower().lstrip().rstrip()
 
                         if task != None:
+                            # Check if task is in category list
                             category = [key for key, value in categories.items() if key.lower() in task]
                             if len(category) != 1:
-                                category = [key for key, value in otherCategories.items() if key.lower() in task]
+                                # IF it's not in the list, check other special category list, which maps to a category
+                                category = [value for key, value in otherCategories.items() if key.lower() in task]
                                 if len(category) != 1:
-                                    print("FIX TAG: ")
-                                    print("-"*10)
-                                    print(page.get("title"))
-                                    print(task)
-                                    print("-"*10)
+                                    skippedTags.append({"title": page.get("title"), "tag": task})
                                     continue
                             category = category[0]
 
+                            # # Append category time to category list of times
                             categoryTimes = categories.get(category)
+                            categoryTimes[dateIndex] += taskMinutes
 
             pageCount += 1
 
     except:
         continue
 
+print("-"*10)
+print("Analyzed: " + str(pageCount) + " pages")
+print("Skipped Tasks: ", len(skippedTags))
+for skippedTag in skippedTags:
+    print("FIX TAG: ")
+    print("-"*10)
+    print(skippedTag["title"])
+    print(skippedTag["tag"])
+    print("-"*10)
+print("-"*10)
 
-# if not any(map(task.__contains__, categoriesRaw)):
-#                             print("FIX TAG: ")
-#                             print(page.get("title"))
-#                             print(task)
-#                         else:
-#                             category = ""
-#                             for rawCat in categoriesRaw:
-#                                 if task.find(rawCat) > 0:
-#                                     category = rawCat
-#                                     break
+percentTimes = []
+for category, categoryTimes in categories.items():
+    totalActivityMinutes = sum(categoryTimes)
+    percentTimes.append({"category": category, "percentTime": round((totalActivityMinutes/totalMinutes)*100, 2)})
 
-#                             # Calculate reading
-#                             # print(category)
-#                             if category == "reflecting":
-#                                 # print(pageTitle)
+percentTimes.sort(key=lambda x: x.get("percentTime"), reverse=True)
 
-#                                 # print(tdelta)
-#                                 hours = tdelta.seconds//3600
-#                                 minutes = (tdelta.seconds//60) % 60
-#                                 taskMinutes = (hours*60) + minutes
+print("Percent Time Breakdown Per Activity: ")
+print("-"*10)
+for percentTime in percentTimes:
+    print(percentTime.get("category")  + " (" + str(percentTime.get("percentTime")) + "%)")
+print("-"*10)
 
-#                                 timeSpent[termIndex] += taskMinutes
-#                                 # print(timeSpent[termIndex])
-#                                 activityMinutes += taskMinutes
-
-# print("-----------")
-# print("Analyzed: " + str(pageCount) + " pages")
-# print("Activity: lunch")
-# print("Average time (minutes): " + str(activityMinutes) + "/" +
-#       str(totalMinutes) + " (" + str(round((activityMinutes/totalMinutes)*100, 2)) + "%)")
-
+# dateLabels = [x.strftime("%b %d") for x in dates]
 # figure(figsize=(17, 7))
 
 # ax = plt.axes()
@@ -197,8 +197,10 @@ for page in allPages:
 # ax.xaxis.set_minor_locator(ticker.MultipleLocator(1))
 
 # plt.xticks(rotation=45, fontsize=10)
-# plt.plot(dates, timeSpent)
-# plt.title('Minutes spent reflecting per day')
+# plt.plot(dateLabels, categories.get("reading"),  color='red', label='reading')
+# plt.plot(dateLabels, categories.get("school"),  color='blue', label='school')
+# plt.legend()
+# plt.title('Minutes spent on activity per day')
 # plt.xlabel('Day')
 # plt.ylabel('Time (minutes)')
 # plt.show()

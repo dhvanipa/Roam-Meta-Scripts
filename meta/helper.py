@@ -21,13 +21,19 @@ def parseTimeBlock(timeStr):
             return (startTime, endTime)
     return None
 
-# Gets the time delta between start and end time in seconds
+# Gets the time delta between start and end time in minutes
 # eg. startTime: 13:36, endTime: 14:36
-# return: 3600
+# return: 60
 def getTimeDelta(startTime, endTime):
     FMT = '%H:%M'
     tdelta = datetime.strptime(
         endTime, FMT) - datetime.strptime(startTime, FMT)
     if tdelta.days < 0:
         tdelta = timedelta(days=0, seconds=tdelta.seconds, microseconds=tdelta.microseconds)
-    return tdelta
+
+    # convert seconds to minutes
+    hours = tdelta.seconds//3600
+    minutes = (tdelta.seconds//60) % 60
+    taskMinutes = (hours*60) + minutes
+
+    return taskMinutes
