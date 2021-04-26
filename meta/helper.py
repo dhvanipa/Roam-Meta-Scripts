@@ -1,5 +1,6 @@
 import re
 from datetime import datetime, timedelta
+from math import floor
 
 hhmmStartsWithCheck = re.compile("^([0-1]?[0-9]|2[0-3]):[0-5][0-9]")
 hhmmStrictCheck = re.compile("^([0-1]?[0-9]|2[0-3]):[0-5][0-9]$")
@@ -37,3 +38,23 @@ def getTimeDelta(startTime, endTime):
     taskMinutes = (hours*60) + minutes
 
     return taskMinutes
+
+# Takes in an integer represent the number of minutes and returns a user friendly string
+# eg. minutes: 344
+# return: 5 hours and 44 minutes
+def getTimeStr(minutes):
+    time = ""
+    if minutes > 60:
+        hours = floor(minutes/60)
+        if hours == 1:
+            time = str(hours) + " hour and "
+        else:
+            time = str(hours) + " hours and "
+        minutes = minutes % 60
+
+    if minutes == 1:
+        time += str(minutes) + " min"
+    else:
+        time += str(minutes) + " mins"
+
+    return time

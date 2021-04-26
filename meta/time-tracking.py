@@ -7,7 +7,8 @@ import matplotlib.pyplot as plt
 from matplotlib.pyplot import figure
 import matplotlib.ticker as ticker
 
-from helper import parseTimeBlock, getTimeDelta
+from helper import parseTimeBlock, getTimeDelta, getTimeStr
+
 
 # Load Roam graph
 with open('../data/database.json') as f:
@@ -36,6 +37,7 @@ chosenTrimester = input("Enter trimester (winter, spring, fall): ")
 while chosenTrimester not in trimesters:
     print("Invalid trimester chosen")
     chosenTrimester = input("Enter trimester (winter, spring, fall): ")
+chosenTrimesterName = chosenTrimester.capitalize()
 chosenTrimester = trimesters.get(chosenTrimester)
 
 startTermDate = date(
@@ -76,6 +78,7 @@ categories = {
     "mentoring": [],
     "bookmarks": [],
     "intrinsic building": [],
+    "event": [],
 
     "body": [],
     "soul": [],
@@ -93,6 +96,9 @@ categories = {
     "podcast": [],
     "yc": [],
     "music": [],
+    "bio": [],
+    "cybersecurity": [],
+    "power": [],
 }
 
 otherCategories = {
@@ -144,16 +150,22 @@ for page in allPages:
 
                         task = parentTitle[parentTitle.index(timeBlock[1])+6:]
                         task = task.lower().lstrip().rstrip()
+                        if ' - ' in task:
+                            task = task[:task.index(' - ')]
 
                         if task != None:
                             # Check if task is in category list
                             category = [key for key, value in categories.items() if key.lower() in task]
-                            if len(category) != 1:
+                            if len(category) == 0:
                                 # IF it's not in the list, check other special category list, which maps to a category
                                 category = [value for key, value in otherCategories.items() if key.lower() in task]
                                 if len(category) != 1:
-                                    skippedTags.append({"title": page.get("title"), "tag": task})
+                                    skippedTags.append({"title": page.get("title"), "tag": task, "category": category})
                                     continue
+                            elif len(category) > 1:
+                                # pick the longest substring
+                                category = [max(category, key=len)]
+
                             category = category[0]
 
                             # # Append category time to category list of times
@@ -173,34 +185,82 @@ for skippedTag in skippedTags:
     print("-"*10)
     print(skippedTag["title"])
     print(skippedTag["tag"])
+    print(skippedTag["category"])
     print("-"*10)
 print("-"*10)
 
+untrackedMinutes = totalMinutes
 percentTimes = []
 for category, categoryTimes in categories.items():
     totalActivityMinutes = sum(categoryTimes)
-    percentTimes.append({"category": category, "percentTime": round((totalActivityMinutes/totalMinutes)*100, 2)})
+    untrackedMinutes -= totalActivityMinutes
+    nonZeroTimes = [x for x in categoryTimes if x > 0]
+    averageMinutes = 0
+    if len(nonZeroTimes) > 0:
+        averageMinutes = round(sum(nonZeroTimes)/len(nonZeroTimes))
+
+    percentTimes.append({
+        "category": category,
+        "percentTime": round((totalActivityMinutes/totalMinutes)*100, 2),
+        "totalMins": getTimeStr(totalActivityMinutes),
+        "avgMins": getTimeStr(averageMinutes)
+        })
+
 
 percentTimes.sort(key=lambda x: x.get("percentTime"), reverse=True)
 
-print("Percent Time Breakdown Per Activity: ")
+print("Time Breakdown Per Activity: ")
 print("-"*10)
+print("untracked ({0}%)".format(round((untrackedMinutes/totalMinutes)*100, 2)))
 for percentTime in percentTimes:
-    print(percentTime.get("category")  + " (" + str(percentTime.get("percentTime")) + "%)")
+    print("{0} ({1}%), Total: {2}, Avg: {3}".format(
+        percentTime.get("category"),
+        percentTime.get("percentTime"),
+        percentTime.get("totalMins"),
+        percentTime.get("avgMins")
+        ))
 print("-"*10)
 
-# dateLabels = [x.strftime("%b %d") for x in dates]
-# figure(figsize=(17, 7))
 
-# ax = plt.axes()
-# ax.xaxis.set_major_locator(ticker.MultipleLocator(5))
-# ax.xaxis.set_minor_locator(ticker.MultipleLocator(1))
+print("Interactive Grapher")
+print("-"*10)
+while True:
+    # Let user pick an activity to graph
+    chosenActivity = input("Enter activity from list to graph (or exit): ")
+    while chosenActivity not in categories.keys() and chosenActivity != "exit":
+        print("Invalid activity chosen")
+        chosenActivity = input("Enter activity from list to graph (or exit): ")
 
-# plt.xticks(rotation=45, fontsize=10)
-# plt.plot(dateLabels, categories.get("reading"),  color='red', label='reading')
-# plt.plot(dateLabels, categories.get("school"),  color='blue', label='school')
-# plt.legend()
-# plt.title('Minutes spent on activity per day')
-# plt.xlabel('Day')
-# plt.ylabel('Time (minutes)')
-# plt.show()
+    if chosenActivity == "exit":
+        break
+
+    dateLabels = [x.strftime("%b %d") for x in dates]
+    figure(figsize=(17, 7))
+
+    ax = plt.axes()
+    ax.xaxis.set_major_locator(ticker.MultipleLocator(5))
+    ax.xaxis.set_minor_locator(ticker.MultipleLocator(1))
+
+    plt.xticks(rotation=45, fontsize=10)
+    plt.plot(dateLabels, categories.get(chosenActivity),  color='blue', label=chosenActivity)
+    plt.legend()
+    plt.title('Minutes spent on {0} per day during {1} of {2}'.format(chosenActivity, chosenTrimesterName, chosenYear))
+    plt.xlabel('Day')
+    plt.ylabel('Time (minutes)')
+    plt.draw()
+    plt.pause(1)
+    prevChosenActivity = chosenActivity
+    chosenActivity = input("Enter other activity from list to graph for comparison (or skip): ")
+    while chosenActivity not in categories.keys() and chosenActivity != "skip":
+        print("Invalid comparison activity chosen")
+        chosenActivity = input("Enter other activity from list to graph for comparison (or skip): ")
+
+    if chosenActivity == "skip":
+        continue
+
+    plt.title('Minutes spent on {0} vs. {1} per day during {2} of {3}'.format(
+        prevChosenActivity, chosenActivity, chosenTrimesterName, chosenYear))
+    plt.plot(dateLabels, categories.get(chosenActivity),  color='red', label=chosenActivity)
+    plt.legend()
+    plt.draw()
+    plt.pause(1)
