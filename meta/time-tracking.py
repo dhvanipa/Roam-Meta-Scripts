@@ -9,7 +9,6 @@ import matplotlib.ticker as ticker
 
 from helper import parseTimeBlock, getTimeDelta, getTimeStr
 
-
 # Load Roam graph
 with open('../data/database.json') as f:
     allPages = json.load(f)
