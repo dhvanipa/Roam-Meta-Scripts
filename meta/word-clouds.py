@@ -2,54 +2,20 @@
 import json
 import string
 
-from datetime import date, datetime, timedelta
-from calendar import month_abbr, monthrange
+from datetime import timedelta
 from dateutil.parser import parse
 
 from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt
 
-from helper import parseTimeBlock, getTimeDelta, getTimeStr
+from helper import parseTimeBlock, getTimeDelta, getTimeStr, getTimeRange
 
 # Load Roam graph
 with open('../data/database.json') as f:
     allPages = json.load(f)
 
 # Setup
-
-# Map month to number of days
-months = {month: index for index, month in enumerate(month_abbr) if month}
-
-# Start - End months
-winterTerm = ("Jan", "Apr")
-springTerm = ("May", "Aug")
-fallTerm = ("Sep", "Dec")
-
-year = {"2020": 2020, "2021": 2021}
-trimesters = {"winter": winterTerm, "spring": springTerm, "fall": fallTerm}
-
-# Get input
-chosenYear = input("Enter year (2020, 2021): ")
-while chosenYear not in year:
-    print("Invalid year chosen")
-    chosenYear = input("Enter year (2020, 2021): ")
-
-chosenTrimester = input("Enter trimester (winter, spring, fall): ")
-while chosenTrimester not in trimesters:
-    print("Invalid trimester chosen")
-    chosenTrimester = input("Enter trimester (winter, spring, fall): ")
-chosenTrimesterName = chosenTrimester.capitalize()
-chosenTrimester = trimesters.get(chosenTrimester)
-
-startTermDate = date(
-    int(chosenYear),
-    months.get(chosenTrimester[0]),
-    1)
-
-endTermDate = date(
-    int(chosenYear),
-    months.get(chosenTrimester[1]),
-    monthrange(int(chosenYear), months.get(chosenTrimester[1]))[1])
+(chosenYear, chosenTrimester, chosenTrimesterName, startTermDate, endTermDate) = getTimeRange()
 
 categories = {
     "shower thoughts": "",
