@@ -54,6 +54,9 @@ function formatHighlights() {
         }
         i++;
     }
+    output += currentChapter + "\n";
+    output += currentChapterBullets + "\n";
+    output += "------------------\n\n"
 
     download("output.txt", output);
 }
@@ -62,7 +65,7 @@ function hideSuccess() {
     document.getElementById("successMessage").style.visibility = "hidden";
 }
 
-function loadSample() {    
+function loadSample() {
     fetch('zero-to-one.txt')
     .then(response => response.text())
     .then(text => document.getElementById("inputText").value = text);
