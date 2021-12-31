@@ -1,6 +1,10 @@
+import string
 import json
 from datetime import timedelta
 from dateutil.parser import parse
+
+from wordcloud import WordCloud, STOPWORDS
+stopwords = set(STOPWORDS)
 
 import matplotlib.pyplot as plt
 from matplotlib.pyplot import figure
@@ -34,6 +38,7 @@ categories = {
     "reading": [],
     "writing": [],
     "learning": [],
+    "practicing": [],
     "coding": [],
 
     "work": [],
@@ -57,6 +62,8 @@ categories = {
     # Specific
     "health": [],
     "healthcare": [],
+    "intelligence": [],
+    "walk": [],
     "cells": [],
     "podcast": [],
     "yc": [],
@@ -64,6 +71,12 @@ categories = {
     "bio": [],
     "cybersecurity": [],
     "power": [],
+    "twitter": [],
+    "shopping": [],
+    "effective altruism": [],
+    "zero experience": [],
+    "meeting people": [],
+    "whiteboarding": [],
 }
 
 otherCategories = {
@@ -81,11 +94,20 @@ otherCategories = {
     "econ 101": "school",
     "che161": "school",
     "che 161": "school",
+    "econ102": "school",
+    "econ 102": "school",
+    "pd4": "school",
+    "pd 4": "school",
+    "capstone": "school",
 }
+
+categoryClouds = {}
 
 # Set initial times for each day, for each category to zero
 for category in categories.keys():
     categories[category] = [0] * len(dates)
+    # set initial cloud text to nothing
+    categoryClouds[category] = ""
 
 pageCount = 0
 skippedTags = []
@@ -115,7 +137,9 @@ for page in allPages:
 
                         task = parentTitle[parentTitle.index(timeBlock[1])+6:]
                         task = task.lower().lstrip().rstrip()
+                        categoryCloudText = None
                         if ' - ' in task:
+                            categoryCloudText = task[task.index(' - ')+1:]
                             task = task[:task.index(' - ')]
 
                         if task != None:
@@ -133,9 +157,13 @@ for page in allPages:
 
                             category = category[0]
 
-                            # # Append category time to category list of times
+                            # Append category time to category list of times
                             categoryTimes = categories.get(category)
                             categoryTimes[dateIndex] += taskMinutes
+
+                            # Append category text to category cloud text
+                            if categoryCloudText != None:
+                                categoryClouds[category] += " " + categoryCloudText
 
             pageCount += 1
 
@@ -213,6 +241,25 @@ while True:
     plt.xlabel('Day')
     plt.ylabel('Time (minutes)')
     plt.draw()
+
+    # Word Cloud
+    wordCloudText = categoryClouds.get(chosenActivity).translate(str.maketrans('', '', string.punctuation))
+    # print(wordCloudText)
+    wordcloud = WordCloud(width = 800, height = 800,
+                background_color ='white',
+                collocations=False,
+                stopwords = stopwords,
+                relative_scaling=0.5
+                ).generate(wordCloudText)
+
+    # plot the WordCloud image
+    plt.figure(figsize = (8, 7), facecolor = None)
+    plt.imshow(wordcloud)
+    plt.axis("off")
+    plt.title("Word Cloud For: " + chosenActivity)
+    plt.tight_layout(pad = 0)
+    plt.draw()
+
     plt.pause(1)
     prevChosenActivity = chosenActivity
     chosenActivity = input("Enter other activity from list to graph for comparison (or skip): ")
