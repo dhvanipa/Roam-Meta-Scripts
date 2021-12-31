@@ -20,6 +20,7 @@ Make sure each parent bullet has a start and end timestamp, eg. `"08:30 - 09:28:
 
 This script will then generate a line graph where the x-axis is time, and the y-axis the amount of minutes spent on a chosen activity.
 
+This script will also generate a word cloud for the text that follows the category, eg. `": learning - speech"`.
 
 ### Word Clouds
 
@@ -28,7 +29,7 @@ Make sure each day has the following section:
 - [[Daily Review]]
     - [[Shower thoughts]]
     - Heart:
-    - Mind:        
+    - Mind:
     - Soul:
     - Body:
 ```
