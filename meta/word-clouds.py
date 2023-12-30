@@ -11,8 +11,10 @@ import matplotlib.pyplot as plt
 from helper import parseTimeBlock, getTimeDelta, getTimeStr, getTimeRange
 
 # Load Roam graph
+print("Loading Roam graph...")
 with open('../data/database.json') as f:
     allPages = json.load(f)
+print("Loaded!")
 
 # Setup
 (chosenYear, chosenTrimester, chosenTrimesterName, startTermDate, endTermDate) = getTimeRange()

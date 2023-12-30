@@ -13,8 +13,10 @@ import matplotlib.ticker as ticker
 from helper import parseTimeBlock, getTimeDelta, getTimeStr, getTimeRange
 
 # Load Roam graph
+print("Loading Roam graph...")
 with open('../data/database.json') as f:
     allPages = json.load(f)
+print("Loaded!")
 
 # Setup
 (chosenYear, chosenTrimester, chosenTrimesterName, startTermDate, endTermDate) = getTimeRange()
@@ -77,6 +79,11 @@ categories = {
     "zero experience": [],
     "meeting people": [],
     "whiteboarding": [],
+    "socratica": [],
+    "blockchain": [],
+    "nap": [],
+    "run": [],
+    "cook": [],
 }
 
 otherCategories = {
@@ -99,6 +106,8 @@ otherCategories = {
     "pd4": "school",
     "pd 4": "school",
     "capstone": "school",
+    "se463": "school",
+    "web3": "blockchain",
 }
 
 categoryClouds = {}
@@ -245,20 +254,21 @@ while True:
     # Word Cloud
     wordCloudText = categoryClouds.get(chosenActivity).translate(str.maketrans('', '', string.punctuation))
     # print(wordCloudText)
-    wordcloud = WordCloud(width = 800, height = 800,
-                background_color ='white',
-                collocations=False,
-                stopwords = stopwords,
-                relative_scaling=0.5
-                ).generate(wordCloudText)
+    if len(wordCloudText) > 0:
+        wordcloud = WordCloud(width = 800, height = 800,
+                    background_color ='white',
+                    collocations=False,
+                    stopwords = stopwords,
+                    relative_scaling=0.5
+                    ).generate(wordCloudText)
 
-    # plot the WordCloud image
-    plt.figure(figsize = (8, 7), facecolor = None)
-    plt.imshow(wordcloud)
-    plt.axis("off")
-    plt.title("Word Cloud For: " + chosenActivity)
-    plt.tight_layout(pad = 0)
-    plt.draw()
+        # plot the WordCloud image
+        plt.figure(figsize = (8, 7), facecolor = None)
+        plt.imshow(wordcloud)
+        plt.axis("off")
+        plt.title("Word Cloud For: " + chosenActivity)
+        plt.tight_layout(pad = 0)
+        plt.draw()
 
     plt.pause(1)
     prevChosenActivity = chosenActivity
