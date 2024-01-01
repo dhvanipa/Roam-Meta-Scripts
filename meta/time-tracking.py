@@ -52,6 +52,7 @@ categories = {
     "intrinsic building": [],
     "event": [],
 
+    "heart": [],
     "body": [],
     "soul": [],
 
@@ -84,6 +85,8 @@ categories = {
     "nap": [],
     "run": [],
     "cook": [],
+    "travel": [],
+    "tenet": [],
 }
 
 otherCategories = {
@@ -108,6 +111,9 @@ otherCategories = {
     "capstone": "school",
     "se463": "school",
     "web3": "blockchain",
+    "cs454": "school",
+    "cs482": "school",
+    "ece459": "school",
 }
 
 categoryClouds = {}
