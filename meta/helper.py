@@ -72,14 +72,14 @@ def getTimeRange():
     fallTerm = ("Sep", "Dec")
     fullYear = ("Jan", "Dec")
 
-    year = {"2020": 2020, "2021": 2021, "2022": 2022, "2023": 2023}
+    year = {"2020": 2020, "2021": 2021, "2022": 2022, "2023": 2023, "2024": 2024}
     trimesters = {"winter": winterTerm, "spring": springTerm, "fall": fallTerm, "all": fullYear}
 
     # Get input
-    chosenYear = input("Enter year (2020, 2021, 2022, 2023): ")
+    chosenYear = input("Enter year (2020, 2021, 2022, 2023, 2024): ")
     while chosenYear not in year:
         print("Invalid year chosen")
-        chosenYear = input("Enter year (2020, 2021, 2022, 2023): ")
+        chosenYear = input("Enter year (2020, 2021, 2022, 2023, 2024): ")
 
     chosenTrimester = input("Enter trimester (winter, spring, fall or all): ")
     while chosenTrimester not in trimesters:
